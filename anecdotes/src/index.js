@@ -9,7 +9,6 @@ const Button = ({handleClick, text}) => (
     <button onClick={handleClick}> {text} </button>
 )
 
-
 const App = (props) => {
     const [selected, setSelected] = useState(0)
     const [votes, setVotes] = useState(Array(6).fill(0))
